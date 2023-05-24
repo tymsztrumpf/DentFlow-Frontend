@@ -1,0 +1,45 @@
+:root {
+    --fs-xl: 15vw;
+    --fs-600: 2rem;
+    --fs-400: 1rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.MuiTextField-root{
+    width: 20rem;
+    height: 4rem;
+}
+
+.input{
+    height: 6rem;
+}
+
+#buttons{
+    margin-top: 2rem;
+}
+
+#homeBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    transition: 2s;
+}
+@media (max-width: 950px) {
+    #homeBody{
+        transition: 2s;
+        margin-left: 2rem;
+    }
+}
+
+#contact-form-button{
+    align-self: center;
+    box-shadow: 1rem 2rem 4rem rgba(0, 0, 0, 0.25);
+}
